@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.header{
+  
+    background-color: #2d2d2d;
+    height: 30px;
+}
+button{
+    background-color: #2d2d2d;
+    color:gray;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0px;
+    border: none;
+    position: relative;
+    padding-top: 10px;
+}
+
+.center{
+ position: absolute;
+ top: 20%;
+ left:50%;
+ margin-top: -50px;
+margin-left:-50px;
+width: 272;
+height: 92;
+}
+
+#search-text-input{
+  border-top:thin solid #e5e5e5;
+  border-right: thin solid #e5e5e5;
+  border-bottom: 0;
+  border-left: thin solid #e5e5e5;
+  box-shadow: 0px 1px 1px 1px #e5e5e5;
+  float:left;
+  height: 17px;
+  margin: .8em 0 0 .5em;
+  outline: 0;
+  padding: .4em 0 .4em .6em;
+  width: 500px;
+  position: relative;
+  right: 20%;
+}
+
+#regular-search{
+  text-align: center;
+  margin: 11px 4px;
+  padding: 0 16px;
+  font-size:  14px;
+  line-height: 27px;
+  height: 36px;
+  cursor: pointer;
+  border:1px solid #f2f2f2;
+  background-color:#f2f2f2;
+
+}
+
+#lucky-button{
+  text-align: center;
+  margin: 11px 4px;
+  padding: 0 16px;
+  font-size:  14px;
+  line-height: 27px;
+  height: 36px;
+  cursor: pointer;
+  border:1px solid #f2f2f2;
+  background-color:#f2f2f2;
+
+}
+
+#lucky-button:hover{
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
+#regular-search:hover{
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
+
